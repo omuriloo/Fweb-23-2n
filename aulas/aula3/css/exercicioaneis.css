@@ -1,0 +1,23 @@
+h1, h2{
+    background-color:grey;
+    color: gold;
+    font-size: 30px;
+}
+
+body{
+    background-image: url(../img/senhordosaneis.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+p{
+    color: white;
+}
+
+ul{
+    color: gold;
+}
+
+h3{
+    color:royalblue;
+}

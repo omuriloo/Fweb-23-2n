@@ -1,0 +1,17 @@
+#paragrafo2{
+    background-color: green;
+    color: rgb(193, 222, 233);
+    font-size: 30px;
+}
+
+#paragrafo1{
+    background-color: skyblue;
+    color:green;
+    text-align: right;
+    font-size: 200px;
+    background-image:url(../img/xuxa.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+body{background-color:rgb(201, 227, 236);}
