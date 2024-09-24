@@ -1,0 +1,34 @@
+html{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    color:lawngreen;
+    font-family:serif;
+}
+
+h1{
+    background-image:url(../img/nave.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 20%;
+}
+
+header{
+    width: 100%;
+    height: 100%;
+}
+
+.menu-opcoes ul{
+    font-size: 20px;
+}
+
+.menu-opcoes link{
+    color: #003366;
+}
