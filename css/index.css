@@ -7,9 +7,10 @@ html{
 body{
     width: 100%;
     height: 100%;
-    font-size: 30px;
+    font-size: 40px;
     color:lawngreen;
     font-family:serif;
+    padding: 10px;
 }
 
 h1{
@@ -17,12 +18,14 @@ h1{
     background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
-    height: 20%;
+    height: 100%;
+    padding: 0px 100px;
+    font-family: fantasy;
 }
 
 header{
     width: 100%;
-    height: 100%;
+    height: 35%;
 }
 
 .menu-opcoes ul{
@@ -31,4 +34,43 @@ header{
 
 .menu-opcoes link{
     color: #003366;
+}
+
+.menu-opcoes ul li {
+    display: inline;
+    margin-left: 20px;
+}
+.painel {
+    margin: 10px 0px;
+    padding: 10px;
+    width: 47%;
+
+}
+
+.aula1{
+    float: left;
+    background-color: darkred;
+}
+
+.blog{
+    float: right;
+    background-color: darkgreen;
+}
+
+.painel li{
+    display: inline-block;
+    vertical-align: top;
+    width: 150px;
+    margin: 2px;
+    padding-bottom: 10px;
+}
+
+.painel h2{
+    font-size: 30px;
+}
+
+.painel a{
+    color: blue;
+    font-size: 15px;
+    text-align: center;
 }

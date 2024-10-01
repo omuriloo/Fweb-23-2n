@@ -1,0 +1,14 @@
+.dpanel{
+    background-color:chartreuse;
+    width: 800px;
+    height: 600px;
+    position: relative;
+}
+
+img{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 100px;
+    right: 200px;
+}

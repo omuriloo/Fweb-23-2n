@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.item{
+    flex-basis: 200px;
+    background-color:  darkgreen;
+    color:chocolate;
+    font-weight: bold;
+}
