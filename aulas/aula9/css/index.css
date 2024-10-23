@@ -1,0 +1,53 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.div{
+    width: 20%;
+    height: 20%;
+    background-color: chartreuse;
+    text-align: center;
+    margin: 0 20px;
+}
+
+p {
+    text-shadow: 2px 2px 5px red;
+}
+
+.a{
+    border-radius: 10px;
+}
+
+.b{
+    border-radius: 10px 5px;
+}
+
+.c{
+    border-radius: 10px 5px 20px;
+}
+
+.d{
+    border-radius: 5px 10px 15px 20px;
+}
+
+.e{
+    border-radius: 50%;
+}
+
+.f{
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px greenyellow;
+}
+.g{
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px greenyellow, 10px 10px 5px greenyellow;
+}
+

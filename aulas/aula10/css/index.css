@@ -1,0 +1,24 @@
+header{
+    width: 100%;
+    height: 13%;
+}
+
+body, html{
+    width: 100%;
+    height: 100%;
+    background-color:black;
+}
+
+main{
+    width: 100%;
+    height: 70%;
+}
+footer{
+    width: 100%;
+    height: 20%;
+}
+
+.destaque{
+    background-color:forestgreen;
+    justify-content: center;
+}

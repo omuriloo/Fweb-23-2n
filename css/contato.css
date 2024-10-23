@@ -9,4 +9,5 @@
 li{
     border: forestgreen solid 2px;
     border-style:ridge;
+    font-style: bold;
 }
