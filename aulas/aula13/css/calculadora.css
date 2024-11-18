@@ -1,0 +1,46 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:cadetblue;
+}
+
+.calculadora{
+    width: 20%;
+    height: 65%;
+    background-color:royalblue;
+    position: absolute;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.inputcalculadora{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.botoes{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 100%;
+    height: 70%;
+}
+
+button{
+    font-size: 25px;
+    margin: 3px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+.calculator_display{
+    width: 100%;
+    height: 20%;
+    background-color: aquamarine;
+    margin-bottom: 20px;
+}

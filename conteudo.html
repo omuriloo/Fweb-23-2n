@@ -9,7 +9,6 @@
 </head>
 
 <body>
-
     <header class="container">
         <h1>NAVE</h1>
         <nav class="menu-opcoes">
@@ -113,5 +112,13 @@
     </main>
 
     <footer></footer>
+    <script src="js/conteudo.js">
+        function validaBusca(){
+            if(document.querySelector('#inputlupa').value==''){
+                alert('Não podia ter deixado em branco a busca!');
+                return false;
+            }
+        }
+    </script>
 </body>
 </html>

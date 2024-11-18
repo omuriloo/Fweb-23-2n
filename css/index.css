@@ -151,3 +151,8 @@ header a:hover{
 header a:hover{
     background-color:#003366;
 }
+
+.destaque img{
+    height: 100px;
+    width: 100px;
+}
