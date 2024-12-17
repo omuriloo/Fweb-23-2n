@@ -8,7 +8,56 @@ html, body{
     width: 100%;
     display: flex;
     flex-direction: column;
+}
+#fundo_logo{
+    width: 100%;
+    height: 5%;
+    background-color: #FF6923;
+}
 
+#logo{
+    display: flex;
+}
+
+#perfil {
+    width: 48px;
+    height: 48px;
+    display: inline-flex;
+}
+
+#tuaobra {
+    width: 48px;
+    height: 48px;
+    display: inline-flex;
+    padding: 0 130px;
+}
+
+#menu {
+    width: 48px;
+    height: 48px;
+    display: inline-flex;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #d9d9d9;
+    min-width: 160px;
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    color: #333;
+}
+
+.menu ul li:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown {
+    list-style-type: none;
 }
 
 #titulo{
@@ -28,11 +77,10 @@ html, body{
     padding-bottom: 20px;
 }
 
-img{
+#imgtelha{
     width: 86px;
     height: 76px;
     padding: 10px 0 0 38px;
-       
 }
 
 p{

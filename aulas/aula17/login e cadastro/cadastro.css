@@ -3,30 +3,81 @@
     padding: 0;
 }
 
-html, body{
+html,body {
     height: 100%;
     width: 100%;
     justify-content: center;
     align-items: center;
 }
 
-h1{
-    text-align: center;
-    padding: 250px 0 0 0;
+#fundo {
+    width: 100%;
+    height: 5%;
+    background-color: #FF6923;
 }
 
-#form_cadastro{
-    text-align: center;    
+#logo {
+    display: flex;
+}
+
+#perfil {
+    width: 48px;
+    height: 48px;
+    display: inline-flex;
+}
+
+#tuaobra {
+    width: 48px;
+    height: 48px;
+    display: inline-flex;
+    padding: 0 130px;
+}
+
+#menu {
+    width: 48px;
+    height: 48px;
+    display: inline-flex;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #d9d9d9;
+    min-width: 160px;
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    color: #333;
+}
+
+.menu ul li:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown {
+    list-style-type: none;
+}
+
+h1 {
+    text-align: center;
+    padding: 150px 0 0 0;
+}
+
+#form_cadastro {
+    text-align: center;
     padding: 30px 0 0 0;
 }
 
-input{
+input {
     background-color: #D9D9D9;
     border-color: #D9D9D9;
     margin: 5px;
 }
 
-#botao{
+#botao {
     display: block;
     margin: 0 auto;
     width: 150px;
@@ -36,6 +87,6 @@ input{
     color: white;
 }
 
-#fim{
+#fim {
     padding: 20px 0 10px 0;
 }
