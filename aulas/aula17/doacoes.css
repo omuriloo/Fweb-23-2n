@@ -38,11 +38,17 @@ html, body{
     display: inline-flex;
 }
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: #d9d9d9;
     min-width: 160px;
+    right: 20%;
 }
 
 .dropdown-content a {

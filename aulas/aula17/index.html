@@ -1,40 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Tua Obra</title>
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <div id="fundo"></div>
-        <div id="logo">
-                <a href="../perfil.html" id="perfil"><img src="./img/user.png"
-                        alt="user"></a>
-                <img src="./img/tuaobra.png" alt="tua obra">
-                <nav class="menu">
-                    <ul>
-                        <li class="dropdown">
-                            <img src="./img/menu.png" alt="menu" id="menu">
-                            <div class="dropdown-content">
-                                <a href="../doacoes.html">Minhas doações</a>
-                                <a href="#">Anunciar</a>
-                                <a href="#">Pesquisar</a>
-                            </div>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-            <div id="corpo">
-                <p id="lema">O que sobra, vira obra!</p>
-                <div class="container">
-                    <img id="foto" src="./img/obra.jpg" alt="obra">
-                    <p>o texto fala sobre um texto que eu nao escrevi ainda mas preciso ter uma ideia de como vou escrever o texto</p>
-                </div>
-            <div>
-                
-            </div>
-            </div>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tua Obra</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="fundo"></div>
+    <div id="logo">
+        <img src="./img/user.png" alt="user" id="perfil">
+        <a href="./index.html" id="tuaobra"><img src="./img/tuaobra.png" alt="tua obra"></a>
+        <nav class="menu">
+            <ul>
+                <li class="dropdown">
+                    <img src="./img/menu.png" alt="menu" id="menu">
+                    <div class="dropdown-content">
+                        <a href="./doacoes.html">Minhas doações</a>
+                        <a href="./login e cadastro/anunciar.html">Anunciar</a>
+                        <a href="#">Pesquisar</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="corpo">
+        <p id="lema">O que sobra, vira obra!</p>
+        <div class="container">
+            <img id="foto" src="./img/obra2.png" alt="obra">
+            <p id="descricao_tuaobra">A Tua Obra é uma marca comprometida com a sustentabilidade e inovação, oferecendo
+                soluções práticas para o reaproveitamento de materiais de construção.</p>
         </div>
-    </body>
+    </div>
+
+    <div class="carrossel">
+        <div class="slide">“Preserve o verde para manter o planeta vivo.”</div>
+        <div class="slide">“A natureza não precisa de nós, nós precisamos dela.”</div>
+        <div class="slide">“Reduza, reutilize, recicle para um futuro sustentável.”</div>
+        <div class="slide">“Cada gota de água é um tesouro para o amanhã.”</div>
+      </div>
+      
+      <div id="fundo_botoes">
+        <div id="botoes">
+        <div id="botao_login">
+            <p>Faça o seu login clicando no botão</p>
+            <a href="./login e cadastro/login.html" id="login_texto">Login</a>
+        </div>
+        <div id="botao_cadastro">
+            <p>Faça o seu cadastro clicando no botão</p>
+            <a href="./login e cadastro/cadastro.html" id="cadastro_texto">Cadastro</a>
+        </div>
+        </div>
+      </div>
+
+      <div id="fundo_footer">
+        <div class="footer">
+            <a href="./doacoes.html">Minhas doações</a>
+            <a href="./login e cadastro/anunciar.html">Anunciar</a>             
+            <a href="./login e cadastro/login.html">Entrar</a>
+            <a href="./login e cadastro/cadastro.html">Cadastrar</a>
+        </div>
+      </div>
+
+      <div id="fundo_marca">
+        <p><b>Tua Obra.</b>Todos os direitos reservados.</p>
+        <p><b>Email de contato: </b> tuaobra@gmail.com</p>
+      </div>
+</body>
+
 </html>
