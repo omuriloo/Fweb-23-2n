@@ -10,7 +10,7 @@ html,body {
     align-items: center;
 }
 
-#fundo {
+#fundo_logo {
     width: 100%;
     height: 5%;
     background-color: #FF6923;
@@ -65,4 +65,58 @@ html,body {
 
 .dropdown {
     list-style-type: none;
+}
+
+#barra{
+    background-color: #d9d9d9;
+    width: 289px;
+    height: 30px;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 30px;
+    border: 1px black solid;
+    margin-top: 20px;
+    padding-top: 5px;
+}
+
+#pesquisas{
+    background-color: #FF6923;
+    color: white;
+    margin: 20px;
+    border-radius: 6px;
+    border: 1px black solid;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#texto_pesquisa{
+    padding: 20px 0 0 20px;
+    font-size: 18px;
+}
+
+#descricao_pesquisa{
+    display: inline-flex;
+    margin: 0 auto;
+}
+
+#img_pesquisa{
+    width: 73px;
+    height: 101px;
+    padding:0 0 0 10px;
+}
+
+#mini_descricao{
+    padding: 10px 0 0 0;
+    font-size: 12px;
+}
+
+#nome_pesquisa{
+    display: inline-flex;
+    font-size: 18px;
+
+}
+#ajustes{
+    flex-direction: column;
+    padding: 0 0 0 20px;
 }
